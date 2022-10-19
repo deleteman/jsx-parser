@@ -15,8 +15,9 @@ import * as MyLib from './MyLib.js'
 export function Component() {
     let myRef = null
     let name = "Fernando"
+    let myClass = "open"
     return (
-        <div className='pepe' ref={myRef}>
+        <div className={myClass} ref={myRef}>
             <h1>Hello {name}!</h1>
         </div>
     )
